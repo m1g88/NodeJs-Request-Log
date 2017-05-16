@@ -1,0 +1,25 @@
+{
+  "name": "log-every-request",
+  "version": "1.0.0",
+  "description": "Log post data from every way you what",
+  "main": "app.js",
+  "scripts": {
+    "start":"node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ninemic/NodeJs-Request-Log.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ninemic/NodeJs-Request-Log/issues"
+  },
+  "homepage": "https://github.com/ninemic/NodeJs-Request-Log#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "multer": "^1.3.0"
+  }
+}
